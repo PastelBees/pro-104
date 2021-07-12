@@ -64,26 +64,26 @@ def findingMode():
             "165-175":0,
             }
                       
-    for height, occurence in data.items():
-        if 75 < float(height) < 85:
+    for weight, occurence in data.items():
+        if 75 < float(weight) < 85:
             mdfr["75-85"] += occurence
-        elif 85 < float(height) < 95:
+        elif 85 < float(weight) < 95:
             mdfr["85-95"] += occurence
-        elif 95 < float(height) < 105:
+        elif 95 < float(weight) < 105:
             mdfr["95-105"] += occurence
-        elif 105 < float(height) < 115:
+        elif 105 < float(weight) < 115:
             mdfr["105-115"] += occurence
-        elif 115 < float(height) < 125:
+        elif 115 < float(weight) < 125:
             mdfr["115-125"] += occurence
-        elif 125 < float(height) < 135:
+        elif 125 < float(weight) < 135:
             mdfr["125-135"] += occurence
-        elif 135 < float(height) < 145:
+        elif 135 < float(weight) < 145:
             mdfr["135-145"] += occurence
-        elif 145 < float(height) < 155:
+        elif 145 < float(weight) < 155:
             mdfr["145-155"] += occurence
-        elif 155 < float(height) < 165:
+        elif 155 < float(weight) < 165:
             mdfr["155-165"] += occurence
-        elif 165 < float(height) < 175:
+        elif 165 < float(weight) < 175:
             mdfr["165-175"] += occurence
      
 
